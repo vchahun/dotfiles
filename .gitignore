@@ -1,0 +1,28 @@
+# Vim
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+
+# Java
+.classpath
+.project
+*.class
+*.jar
+
+# Python
+*.py[co]
+
+# General
+bin
+build
+
+# Compiled Object files
+*.lo
+*.o
+# Compiled Dynamic libraries
+*.so
+# Compiled Static libraries
+*.la
+*.a
