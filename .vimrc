@@ -20,6 +20,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
 Bundle 'othree/html5.vim'
 Bundle 'Glench/Vim-Jinja2-Syntax'
+Bundle 'scrooloose/syntastic'
 
 syntax on
 filetype plugin indent on
