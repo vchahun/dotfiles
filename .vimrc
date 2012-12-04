@@ -8,6 +8,8 @@ set encoding=utf8
 set guifont=Monaco:h12
 set vb " Visual bell
 
+filetype off
+
 " Load Vundle
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -21,6 +23,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'othree/html5.vim'
 Bundle 'Glench/Vim-Jinja2-Syntax'
 Bundle 'scrooloose/syntastic'
+Bundle 'vchahun/vim-ducttape'
 
 syntax on
 filetype plugin indent on
@@ -74,3 +77,6 @@ endif
 :autocmd BufNewFile *.sh  0r ~/.vim/templates/bash.sh
 :autocmd BufNewFile *.tex 0r ~/.vim/templates/latex.tex
 :autocmd BufNewFile *.html 0r ~/.vim/templates/html.html
+
+" Cython
+au BufNewFile,BufRead *.pxi set filetype=pyrex

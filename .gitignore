@@ -17,6 +17,7 @@
 # General
 bin
 build
+dist
 
 # Compiled Object files
 *.lo
